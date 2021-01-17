@@ -1,0 +1,11 @@
+.desktop-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    .nav-link {
+        display: inline-block;
+        margin: 0 1rem;
+
+    }
+}
