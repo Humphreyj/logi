@@ -8,6 +8,7 @@ const DesktopNavigation = () => {
             <Link to='/citizen-lookup' className="nav-link">Citizens</Link>
             <Link to='/meal-planner' className="nav-link">Food</Link>
             <Link to='/fps-loadouts' className="nav-link">Loadouts</Link>
+            <Link to='/fleet' className="nav-link">Fleet</Link>
         </nav>
     );
 }

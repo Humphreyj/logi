@@ -7,6 +7,7 @@ import PayoutCalculator from '../tools/PayoutCalculator';
 import CitizenLookup from '../tools/CitizenLookup';
 import MealPlanner from '../tools/MealPlanner';
 import FPSloadouts from '../tools/FPSloadouts';
+import Fleet from '../tools/fleet/Fleet';
 
 const Routes = () => {
     return (
@@ -16,6 +17,7 @@ const Routes = () => {
         <Route exact path='/citizen-lookup' component={CitizenLookup}/>
         <Route exact path='/meal-planner' component={MealPlanner}/>
         <Route exact path='/fps-loadouts' component={FPSloadouts}/>
+        <Route exact path='/fleet' component={Fleet}/>
             
         </>
     );

@@ -1,0 +1,22 @@
+.fleet-manager {
+    .ship {
+        border: 1px solid;
+        width: 80%;
+        padding: 1%;
+        margin: 1rem auto;
+        .ship-name-and-role {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .ship-name {
+                font-size: 1.5em;
+            }
+        }
+        
+        .ship-stats {
+            margin: 1rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+}

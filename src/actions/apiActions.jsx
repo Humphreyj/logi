@@ -1,19 +1,14 @@
 import axios from 'axios';
+import ships from '../data/ships.json';
 
 
-
-export const getShips = () => {
+export const getAllShips = () => {
     let allShips = {};
-    axios
-    .get('https://scm.oceandatarat.org:8443/scm-server/api/v1/ships')
-    .then(res => {
-       
-        console.log(res.data)
+    ships.map(ship => {
+        
+        return allShips[ship.Name] = {...ship}
     })
-    .catch(err => {
-        console.log(err)
-    })
-    
+   return allShips;
 }
 
 export const getShops = () => {
